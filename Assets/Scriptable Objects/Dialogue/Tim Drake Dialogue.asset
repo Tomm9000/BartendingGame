@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9414f56bbae7654aaee512cbded63a4, type: 3}
+  m_Name: Tim Drake Dialogue
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: Id like a Mojito please.
+    responses:
+    - responseText: Coming right up
+      nextNode:
+        dialogueText: Alright.
+        responses: []
+        recievedOrderResponse: Thank You!
+        isSatisfied: 0
+    - responseText: Hey ill start work on it right away, Hows today?
+      nextNode:
+        dialogueText: Todays been great got a lot of work done today more than most
+          days to be fair.
+        responses: []
+        recievedOrderResponse: Hey Thank you!
+        isSatisfied: 1
+    recievedOrderResponse: Aight.
+    isSatisfied: 0

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765d28ba1d0599b4ba14cac85fb957ff, type: 3}
+  m_Name: Garfield Logan
+  m_EditorClassIdentifier: 
+  order: {fileID: 11400000, guid: d7e39db98f2d81943a1d7035ebae2758, type: 2}
+  patronName: Garfield Logan
+  availableDialogue: {fileID: 11400000, guid: 5dc4302d52c724e4a831e9ce20ead92e, type: 2}
+  customerPortrait: {fileID: 2800000, guid: dadd944882826fc41882794a8729c1b1, type: 3}

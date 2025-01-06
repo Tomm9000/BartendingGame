@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9414f56bbae7654aaee512cbded63a4, type: 3}
+  m_Name: Garfield Logan
+  m_EditorClassIdentifier: 
+  RootNode:
+    dialogueText: Cuba Libre please.
+    responses:
+    - responseText: On its way!
+      nextNode:
+        dialogueText: Alright
+        responses: []
+        recievedOrderResponse: Thanks
+        isSatisfied: 0
+    - responseText: Hey man you look down everything okay?
+      nextNode:
+        dialogueText: Yeah im doing fine i guess i just got laid off.
+        responses:
+        - responseText: Oh that sucks dude! i hope this cheers you up!
+          nextNode:
+            dialogueText: Thanks i really need this
+            responses: []
+            recievedOrderResponse: Thanks youre a lifesaver
+            isSatisfied: 1
+        - responseText: Do you have any fallback?
+          nextNode:
+            dialogueText: No not at the moment
+            responses:
+            - responseText: I might be able to get you something temporary at the
+                bar for a while.
+              nextNode:
+                dialogueText: Thanks man! youre saving my life here!
+                responses: []
+                recievedOrderResponse: Youre the bestest around!
+                isSatisfied: 1
+            - responseText: That sucks dude!
+              nextNode:
+                dialogueText: Yeah
+                responses: []
+                recievedOrderResponse: Thanks
+                isSatisfied: 0
+            recievedOrderResponse: Thanks man!
+            isSatisfied: 1
+        recievedOrderResponse: Thanks man!
+        isSatisfied: 1
+    recievedOrderResponse: 
+    isSatisfied: 0

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765d28ba1d0599b4ba14cac85fb957ff, type: 3}
+  m_Name: Tim Drake
+  m_EditorClassIdentifier: 
+  order: {fileID: 11400000, guid: db68b88f0b2d6df4b9ebe4a8e2217fa6, type: 2}
+  patronName: Tim Drake
+  availableDialogue: {fileID: 11400000, guid: fe91d6f5818a3454391d3140d79477f2, type: 2}
+  customerPortrait: {fileID: 2800000, guid: baf21cc35e7af24478468adb221ce4ac, type: 3}

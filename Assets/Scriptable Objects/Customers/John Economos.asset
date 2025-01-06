@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765d28ba1d0599b4ba14cac85fb957ff, type: 3}
+  m_Name: John Economos
+  m_EditorClassIdentifier: 
+  order: {fileID: 11400000, guid: eb333ad7f009c944caf3dea637bddb45, type: 2}
+  patronName: John Economos
+  availableDialogue: {fileID: 11400000, guid: 9bce8875e89d47845bdfa467a0fe69de, type: 2}
+  customerPortrait: {fileID: 2800000, guid: 440544018437fe24fbc81f8c13069955, type: 3}
